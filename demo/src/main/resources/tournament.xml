@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tournament>
+    <name>Valorant Championship 2025</name>
+    <game>Valorant</game>
+    <startDate>2025-01-15</startDate>
+    
+    <teams>
+        <Team>
+            <id>1</id>
+            <name>Phoenix Squad</name>
+            <players>
+                <Player>
+                    <id>101</id>
+                    <pseudo>FireKing</pseudo>
+                    <email>fireking@esport.com</email>
+                    <rank>Diamond</rank>
+                    <score>1500</score>
+                </Player>
+            </players>
+            <players>
+                <Player>
+                    <id>102</id>
+                    <pseudo>BlazeMaster</pseudo>
+                    <email>blaze@esport.com</email>
+                    <rank>Platinum</rank>
+                    <score>1200</score>
+                </Player>
+            </players>
+            <wins>0</wins>
+            <losses>0</losses>
+        </Team>
+    </teams>
+    
+    <teams>
+        <Team>
+            <id>2</id>
+            <name>Shadow Legends</name>
+            <players>
+                <Player>
+                    <id>201</id>
+                    <pseudo>DarkNinja</pseudo>
+                    <email>ninja@esport.com</email>
+                    <rank>Diamond</rank>
+                    <score>1600</score>
+                </Player>
+            </players>
+            <players>
+                <Player>
+                    <id>202</id>
+                    <pseudo>StealthPro</pseudo>
+                    <email>stealth@esport.com</email>
+                    <rank>Gold</rank>
+                    <score>1100</score>
+                </Player>
+            </players>
+            <wins>0</wins>
+            <losses>0</losses>
+        </Team>
+    </teams>
+    
+    <matches>
+        <Match>
+            <id>1</id>
+            <team1Id>1</team1Id>
+            <team2Id>2</team2Id>
+            <scoreTeam1>0</scoreTeam1>
+            <scoreTeam2>0</scoreTeam2>
+            <date>2025-01-15T14:00:00</date>
+            <status>SCHEDULED</status>
+        </Match>
+    </matches>
+</Tournament>

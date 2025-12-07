@@ -1,0 +1,60 @@
+### Test API REST - Tournoi e-Sport
+
+### 1. GET - Obtenir tous les matchs
+GET http://localhost:8080/tournoi-esport/api/matches
+Accept: application/json
+
+###
+
+### 2. POST - Créer un nouveau match
+POST http://localhost:8080/tournoi-esport/api/matches
+Content-Type: application/json
+
+{
+  "team1Id": 1,
+  "team2Id": 2,
+  "scoreTeam1": 0,
+  "scoreTeam2": 0,
+  "matchDate": "2025-01-15T14:00:00",
+  "status": "SCHEDULED"
+}
+
+###
+
+### 3. GET - Obtenir un match par ID
+GET http://localhost:8080/tournoi-esport/api/matches/1
+Accept: application/json
+
+###
+
+### 4. PATCH - Mettre à jour le score d'un match
+PATCH http://localhost:8080/tournoi-esport/api/matches/1/score?team1=13&team2=7
+
+###
+
+### 5. PUT - Mettre à jour un match complet
+PUT http://localhost:8080/tournoi-esport/api/matches/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "team1Id": 1,
+  "team2Id": 2,
+  "scoreTeam1": 13,
+  "scoreTeam2": 10,
+  "matchDate": "2025-01-15T14:00:00",
+  "status": "COMPLETED"
+}
+
+###
+
+### 6. GET - Obtenir les matchs par statut
+GET http://localhost:8080/tournoi-esport/api/matches/status/COMPLETED
+Accept: application/json
+
+###
+
+### 7. DELETE - Supprimer un match
+DELETE http://localhost:8080/tournoi-esport/api/matches/1
+
+###

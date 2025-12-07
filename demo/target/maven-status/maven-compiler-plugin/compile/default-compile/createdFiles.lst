@@ -1,0 +1,10 @@
+com\esport\xml\TournamentXPathUtil.class
+com\esport\gui\MatchData.class
+com\esport\soap\PlayerServiceSOAP.class
+com\esport\model\MatchStatus.class
+com\esport\model\Team.class
+com\esport\rest\RestApplication.class
+com\esport\model\Player.class
+com\esport\gui\TournamentApp.class
+com\esport\model\Match.class
+com\esport\rest\MatchServiceREST.class

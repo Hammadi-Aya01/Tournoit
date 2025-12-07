@@ -1,0 +1,9 @@
+D:\Tournoi\demo\src\main\java\com\esport\gui\TournamentApp.java
+D:\Tournoi\demo\src\main\java\com\esport\model\Team.java
+D:\Tournoi\demo\src\main\java\com\esport\soap\PlayerServiceSOAP.java
+D:\Tournoi\demo\src\main\java\com\esport\xml\TournamentXPathUtil.java
+D:\Tournoi\demo\src\main\java\com\esport\model\MatchStatus.java
+D:\Tournoi\demo\src\main\java\com\esport\model\Match.java
+D:\Tournoi\demo\src\main\java\com\esport\rest\RestApplication.java
+D:\Tournoi\demo\src\main\java\com\esport\model\Player.java
+D:\Tournoi\demo\src\main\java\com\esport\rest\MatchServiceREST.java
